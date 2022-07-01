@@ -2,6 +2,8 @@
 @import url(./global.css);
 @import url(./fonts.css);
 @import url(./reset.css);
+@import url(../libs/css/font-awesome.css);
+@import url(./common.css);
 
 * {
     box-sizing: border-box;
