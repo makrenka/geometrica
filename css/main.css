@@ -5,6 +5,7 @@
 @import url(../libs/css/font-awesome.css);
 @import url(./common.css);
 @import url(./components/header.css);
+@import url(./components/phone-number.css);
 
 * {
     box-sizing: border-box;
