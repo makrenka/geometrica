@@ -53,7 +53,7 @@
                     </ul>
                 </nav>
                 <div class="header__contacts">
-                    <div>
+                    <div class="header__contacts-wrapper">
                         <div class="phone-number">
                             <i class="fa-solid fa-phone phone-number__icon"></i>
                             <a href="tel:+73952482805" class="phone-number__link">+7 (3952) 48-28-05</a>
@@ -72,8 +72,12 @@
                     керамогранит в Иркутске</p>
                 <div class="header__controls">
                     <i class="fa-regular fa-user header__controls-icon"></i>
-                    <i class="fa-regular fa-heart header__controls-icon"></i>
-                    <i class="fa-solid fa-cart-shopping header__controls-icon"></i>
+                    <i class="fa-regular fa-heart header__controls-icon">
+                        <sup class="header__controls-count">0</sup>
+                    </i>
+                    <i class="fa-solid fa-cart-shopping header__controls-icon">
+                        <sup class="header__controls-count header__controls--active">21</sup>
+                    </i>
                 </div>
                 <form class="header__search">
                     <input class="header__search-input" type="text" name="search-products"
@@ -88,18 +92,48 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
+
+        <div class="header__mobile">
+            <div class="header__mobile-top">
+                <button class="header_humburger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="phone-number">
+                    <i class="fa-solid fa-phone phone-number__icon"></i>
+                    <a href="tel:+73952482805" class="phone-number__link">+7 (3952) 48-28-05</a>
+                </div>
+                <button class="header__search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <form class="header__search">
+                    <input class="header__search-input header__search-input-mobile" type="text" name="search-products"
+                        placeholder="искать в каталоге">
+                    <button type="submit" class="header__search-button">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
         <div class="slider header__slider">
             <div class="slider__wrapper">
                 <div class="slider__slide header__slide">
                     <hgroup class="container header__slide-title-group">
                         <div>
                             <h6 class="header__slide-sub-title">коллекция 2020 года</h6>
-                            <div class="flex-container align-end">
+                            <div class="flex-container align-baseline">
                                 <h2 class="header__slide-title">Casabella</h2>
-                                <p class="header__slide-discount">СКИДКА 20% до 25 августа</p>
+                                <div class="flex-container align-center">
+                                    <p class="header__slide-discount">СКИДКА 20% до 25 августа</p>
+                                    <a href="#" class="details-btn header__slide-details-btn">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </hgroup>
+
                 </div>
                 <div class="slider__slide header__slide">
                     <hgroup class="container header__slide-title-group">
@@ -111,6 +145,7 @@
                             </div>
                         </div>
                     </hgroup>
+
                 </div>
                 <div class="slider__slide header__slide">
                     <hgroup class="container header__slide-title-group">
@@ -122,11 +157,18 @@
                             </div>
                         </div>
                     </hgroup>
+
                 </div>
+
             </div>
         </div>
+
+
     </header>
-    <script src="./js/components/slider.js"></script>
+
+
+
+    <script src="./js/components/Slider.js"></script>
     <script src="./js/index.js"></script>
 </body>
 
