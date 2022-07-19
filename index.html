@@ -79,7 +79,7 @@
                         <sup class="header__controls-count header__controls--active">21</sup>
                     </i>
                 </div>
-                <form class="header__search">
+                <form class="header__search header__search--mobile">
                     <input class="header__search-input" type="text" name="search-products"
                         placeholder="искать в каталоге">
                     <button type="submit" class="header__search-button">
@@ -130,50 +130,52 @@
                             <sup class="header__controls-count header__controls-count--mobile">0</sup>
                         </i>
                         <i class="fa-solid fa-cart-shopping header__controls-icon header__controls-icon--mobile">
-                            <sup class="header__controls-count header__controls--active header__controls-count--mobile">21</sup>
+                            <sup
+                                class="header__controls-count header__controls--active header__controls-count--mobile">21</sup>
                         </i>
                     </div>
                 </div>
             </div>
             <nav class="header__mobile-menu">
                 <ul class="header__navigation-list header__navigation-list--mobile">
-                    <li class="header__navigation-list-item header__navigation-list-item--dropdown">
+                    <li
+                        class="header__navigation-list-item--mobile header__navigation-list-item header__navigation-list-item--dropdown">
                         <a class="header__navigation-link" href="#">Услуги</a>
                         <ul class="header__navigation-sub-menu">
-                            <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <li class="header__navigation-list-item">
                                 <a class="header__navigation-link" href="#">Услуга 1</a>
                             </li>
-                            <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <li class="header__navigation-list-item">
                                 <a class="header__navigation-link" href="#">Услуга 1</a>
                             </li>
-                            <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <li class="header__navigation-list-item">
                                 <a class="header__navigation-link" href="#">Услуга 1</a>
                             </li>
-                            <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <li class="header__navigation-list-item">
                                 <a class="header__navigation-link" href="#">Услуга 1</a>
                             </li>
-                            <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <li class="header__navigation-list-item">
                                 <a class="header__navigation-link" href="#">Услуга 1 Услуга 1ihjasdashjd kji asf</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                    <li class="header__navigation-list-item--mobile header__navigation-list-item">
                         <a class="header__navigation-link" href="#">Оплата и доставка</a>
                     </li>
-                    <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                    <li class="header__navigation-list-item--mobile header__navigation-list-item">
                         <a class="header__navigation-link" href="#">Акции</a>
                     </li>
-                    <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                    <li class="header__navigation-list-item--mobile header__navigation-list-item">
                         <a class="header__navigation-link" href="#">Полезные советы</a>
                     </li>
-                    <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                    <li class="header__navigation-list-item--mobile header__navigation-list-item">
                         <a class="header__navigation-link" href="#">Обратная связь</a>
                     </li>
-                    <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                    <li class="header__navigation-list-item--mobile header__navigation-list-item">
                         <a class="header__navigation-link" href="#">Контакты</a>
                     </li>
                 </ul>
-            </nav>            
+            </nav>
         </div>
 
 
@@ -224,45 +226,55 @@
             </div>
         </div>
 
-
     </header>
 
     <main class="main">
         <section class="products">
-            <a class="products__ceramics-granite">
+            <a href="#" class="products__ceramics-granite">
                 <p>67 коллекций, 1 478 товаров</p>
                 <h2>Керамогранит</h2>
             </a>
-            <a class="products__wallpaper">
-                <p>1 478 товаров</p>
+            <a href="#" class="products__wallpaper">
                 <h2>ОБОИ</h2>
+                <p>1 478 товаров</p>
             </a>
-            <a class="products__tile">
+            <a href="#" class="products__tile">
                 <p>67 коллекций, 1 478 товаров</p>
                 <h2>КЕРАМИЧЕСКАЯ ПЛИТКА</h2>
             </a>
-            <a class="products__special">
+            <a href="#" class="products__speciall">
                 <h2>ИЗГОТОВЛЕНИЕ СПЕЦИЗДЕЛИЙ</h2>
             </a>
-            <a class="products__formats">
+            <a href="#" class="products__formats">
                 <p>67 коллекций, 1 478 товаров</p>
-                <h2>КРУПНЫЕ<span>форматы</span></h2>
+                <h2>
+                    КРУПНЫЕ
+                    <span>форматы</span>
+                </h2>
             </a>
-            <a class="products__others">
+            <a href="#" class="products__others">
                 <p>смотрите также:</p>
                 <ul>
-                    <li>сухие смеси</li>
-                    <li>лакокрасочные изделия</li>
-                    <li>багет</li>
+                    <li>
+                        <h2>Cухие смеси</h2>
+                    </li>
+                    <li>
+                        <h2>лакокрасочные изделия</h2>
+                    </li>
+                    <li>
+                        <h2>Багет</h2>
+                    </li>
                 </ul>
             </a>
         </section>
     </main>
 
+
     <div class="overlay"></div>
 
-    <script src="./js/components/mobile-header-menu.js"></script>
     <script src="./js/components/Slider.js"></script>
+    <script src="./js/components/mobile-header-search.js"></script>
+    <script src="./js/components/mobileMenu.js"></script>
     <script src="./js/index.js"></script>
 </body>
 

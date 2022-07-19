@@ -86,13 +86,16 @@
     bottom: 0;
     width: 207px;
     transform: translateX(-207px);
-    transition: transform .5s;
     background-color: #fff;
-    z-index: var(--header-menu-z-index);
+    transition: transform .3s;
 }
 
 .header__navigation-list-item--mobile {
     padding: 15px 30px 15px 30px;
+}
+
+.header__mobile-menu {
+    z-index: var(--header-menu-z-index);
 }
 
 .header__mobile-menu--active {
