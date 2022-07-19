@@ -9,6 +9,9 @@
 @import url(./components/slider.css);
 @import url(./components/details-btn.css);
 @import url(./components/header__mobile.css);
+@import url(./components/categories.css);
+@import url(./components/services.css);
+@import url(./components/discounts.css);
 
 * {
     box-sizing: border-box;
