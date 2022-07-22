@@ -4,31 +4,65 @@
     margin: 100px auto
 }
 
-.box {
-    height: 300px;
-    background-color: aquamarine;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 80px;
-    font-weight: bold;
+.box {         
+    background: white;
+    height: 183px;
+    margin: 0 30px;
+    padding: 35px 0 0 34px;
 }
 
-.swiper-button-next:after, .swiper-button-prev:after {
+.discounts__slide-ceramics {
+    background-image: url(../../images/discounts/discount-ceramics.jpg);
+}
+
+.discounts__slide-new-products {
+    background-image: url(../../images/discounts/new-products.jpg);
+}
+
+.discounts__slide-remains {
+    background-image: url(../../images/discounts/remains.jpg);
+}
+
+.swiper-slide {
+    font-family: 'Inter';
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide p {    
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FF0000;
+    
+}
+
+.swiper-slide h3 {    
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;    
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #3E3E3E;
+    margin-top: 17px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
     display: none;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
     width: 50px;
     height: 50px;
     font-size: 20px;
     border-radius: 50%;
-    background: red;
 }
 
-/* .swiper-button-prev {
-    left: 150px;
+.swiper-button-prev {
+    left: -150px;
 }
-.swiper-button-next {
-    right: 150px;
-} */
